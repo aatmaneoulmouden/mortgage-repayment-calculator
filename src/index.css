@@ -9,3 +9,37 @@
         @apply font-main font-medium;
     }
 }
+
+@layer components {
+    .input-wrapper {
+        @apply mb-5;
+    }
+
+    .input-container {
+        @apply w-[380px] h-12 border-2 border-neutral-slate-700 rounded-md overflow-hidden flex;
+    }
+
+    .input-label {
+        @apply text-neutral-slate-700 block mb-2;
+    }
+    
+    .input-tag {
+        @apply bg-neutral-slate-100 px-4 h-full w-fit flex justify-center items-center text-neutral-slate-700 font-bold;
+    }
+
+    .input {
+        @apply w-full px-3 border-none outline-none text-neutral-slate-900 font-bold;
+    }
+
+    .two-inputs .input-container {
+        @apply w-full;
+    }
+
+    .radio-input-container {
+        @apply h-12 border-2 px-3 border-neutral-slate-700 rounded-md flex justify-start items-center gap-3 cursor-pointer;
+    }
+
+    .radio-input-container label {
+        @apply font-bold text-neutral-slate-900 cursor-pointer;
+    }
+}
