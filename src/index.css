@@ -6,13 +6,13 @@
 
 @layer base {
     body {
-        @apply font-main font-medium;
+        @apply font-main font-medium text-neutral-slate-900;
     }
 }
 
 @layer components {
     .input-wrapper {
-        @apply mb-5;
+        @apply mb-6;
     }
 
     .input-container {
@@ -28,7 +28,7 @@
     }
 
     .input {
-        @apply w-full px-3 border-none outline-none text-neutral-slate-900 font-bold;
+        @apply w-full px-3 border-none outline-none font-bold;
     }
 
     .two-inputs .input-container {
@@ -40,6 +40,6 @@
     }
 
     .radio-input-container label {
-        @apply font-bold text-neutral-slate-900 cursor-pointer;
+        @apply font-bold cursor-pointer;
     }
 }
