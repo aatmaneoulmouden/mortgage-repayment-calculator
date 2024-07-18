@@ -6,7 +6,7 @@ const Form = () => {
     <div className="form bg-neutral-white p-8">
       <div className="heading flex justify-between items-center mb-7">
         <h1 className="text-xl font-bold">Mortgage Calculator</h1>
-        <button className="text-neutral-slate-700 underline">Clear All</button>
+        <button className="text-neutral-slate-700 underline text-sm">Clear All</button>
       </div>
       <form action="">
         <div className="input-wrapper">

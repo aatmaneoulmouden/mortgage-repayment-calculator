@@ -20,7 +20,7 @@
     }
 
     .input-label {
-        @apply text-neutral-slate-700 block mb-2;
+        @apply text-neutral-slate-700 block mb-2 text-sm;
     }
 
     .input-tag {
