@@ -66,7 +66,7 @@ const Form = () => {
             </label>
           </div>
         </div>
-        <button className="flex items-center gap-3 font-bold bg-primary-lime rounded-full py-2 px-5">
+        <button className="flex items-center gap-3 font-bold bg-primary-lime rounded-full py-3 px-5 border-none">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
