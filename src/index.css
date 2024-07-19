@@ -11,12 +11,16 @@
 }
 
 @layer components {
+    .custom-transition {
+        @apply transition ease-linear delay-75;
+    }
+
     .input-wrapper {
-        @apply mb-6;
+        @apply mb-6 cursor-pointer;
     }
 
     .input-container {
-        @apply w-[380px] h-12 border-2 border-neutral-slate-700 rounded-md overflow-hidden flex;
+        @apply w-[380px] h-12 border-2 border-neutral-slate-500 rounded-md overflow-hidden flex custom-transition hover:border-neutral-slate-900;
     }
 
     .input-label {
@@ -28,7 +32,7 @@
     }
 
     .input {
-        @apply w-full px-3 border-none outline-none font-bold;
+        @apply w-full px-3 border-none outline-none font-bold cursor-pointer;
     }
 
     .two-inputs .input-container {
@@ -36,7 +40,7 @@
     }
 
     .radio-input-container {
-        @apply h-12 border-2 px-3 border-neutral-slate-700 rounded-md flex justify-start items-center gap-3 cursor-pointer;
+        @apply h-12 border-2 px-3 border-neutral-slate-500 rounded-md flex justify-start items-center gap-3 cursor-pointer custom-transition hover:border-primary-lime;
     }
 
     .radio-input-container label {

@@ -1,4 +1,4 @@
-import React, { useId } from "react";
+import { useId } from "react";
 
 const Form = () => {
   const id = useId();
@@ -6,7 +6,9 @@ const Form = () => {
     <div className="form bg-neutral-white p-8">
       <div className="heading flex justify-between items-center mb-7">
         <h1 className="text-xl font-bold">Mortgage Calculator</h1>
-        <button className="text-neutral-slate-700 underline text-sm">Clear All</button>
+        <button className="text-neutral-slate-700 underline text-sm hover:text-neutral-slate-900">
+          Clear All
+        </button>
       </div>
       <form action="">
         <div className="input-wrapper">
@@ -66,7 +68,7 @@ const Form = () => {
             </label>
           </div>
         </div>
-        <button className="flex items-center gap-3 font-bold bg-primary-lime rounded-full py-3 px-5 border-none">
+        <button className="flex items-center gap-3 font-bold bg-primary-lime rounded-full py-3 px-5 border-none hover:bg-primary-lime/60">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
